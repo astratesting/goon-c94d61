@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0a0e1a;
+  --color-navy-50: #111827;
+  --color-navy-100: #0f1629;
+  --color-cobalt: #3b82f6;
+  --color-cobalt-600: #2563eb;
+  --color-accent: #22c55e;
+  --font-display: "Inter", system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-display);
+}
