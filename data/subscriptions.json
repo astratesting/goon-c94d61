@@ -1,0 +1,24 @@
+[
+  {
+    "id": "270c80fc-1cc8-40b1-98a5-86dcc509627b",
+    "userId": "64cfabf7-bfc4-4e68-a39a-d89bb536e4cf",
+    "stripeSubscriptionId": "sub_demo_001",
+    "packageId": "ppc",
+    "status": "active",
+    "currentPeriodStart": "2026-06-24T01:37:45.487Z",
+    "currentPeriodEnd": "2026-07-24T01:37:45.487Z",
+    "cancelAtPeriodEnd": false,
+    "createdAt": "2026-05-25T01:37:45.487Z"
+  },
+  {
+    "id": "d323a584-be61-4b47-867f-b497f53ebf1c",
+    "userId": "64cfabf7-bfc4-4e68-a39a-d89bb536e4cf",
+    "stripeSubscriptionId": "sub_demo_002",
+    "packageId": "seo",
+    "status": "active",
+    "currentPeriodStart": "2026-06-29T01:37:45.487Z",
+    "currentPeriodEnd": "2026-07-29T01:37:45.487Z",
+    "cancelAtPeriodEnd": false,
+    "createdAt": "2026-05-25T01:37:45.487Z"
+  }
+]

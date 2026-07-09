@@ -12,7 +12,7 @@ export async function GET() {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const items = getWatchlist(session.userId);
+  const items = getWatchlist(session.user.id);
   return NextResponse.json({ data: items });
 }
 
@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
   }
 
   try {
-    const item = addToWatchlist(session.userId, symbol, name);
+    const item = addToWatchlist(session.user.id, symbol, name);
     return NextResponse.json({ data: item }, { status: 201 });
   } catch (err) {
     const message =
@@ -65,7 +65,7 @@ export async function DELETE(request: NextRequest) {
     );
   }
 
-  const removed = removeFromWatchlist(session.userId, symbol);
+  const removed = removeFromWatchlist(session.user.id, symbol);
   if (!removed) {
     return NextResponse.json(
       { error: "Ticker not found in watchlist" },

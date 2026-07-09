@@ -1,0 +1,132 @@
+// This is your Prisma schema file
+// Learn more: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id               String         @id @default(uuid())
+  email            String         @unique
+  name             String
+  passwordHash     String         @map("password_hash")
+  emailVerified    Boolean        @default(false) @map("email_verified")
+  role             String         @default("customer")
+  stripeCustomerId String?        @map("stripe_customer_id")
+  createdAt        DateTime       @default(now()) @map("created_at")
+  updatedAt        DateTime       @updatedAt @map("updated_at")
+  campaigns        Campaign[]
+  bookings         Booking[]
+  subscriptions    Subscription[]
+  forms            MarketingForm[]
+
+  @@map("users")
+}
+
+model Campaign {
+  id        String           @id @default(uuid())
+  userId    String           @map("user_id")
+  name      String
+  packageId String           @map("package_id")
+  status    String           @default("draft")
+  geo       String
+  keywords  String[]
+  adSpend   Float            @default(0) @map("ad_spend")
+  cpc       Float            @default(0)
+  startDate DateTime         @map("start_date")
+  endDate   DateTime?        @map("end_date")
+  createdAt DateTime         @default(now()) @map("created_at")
+  updatedAt DateTime         @updatedAt @map("updated_at")
+  user      User             @relation(fields: [userId], references: [id])
+  metrics   CampaignMetric[]
+  leads     Lead[]
+
+  @@map("campaigns")
+}
+
+model CampaignMetric {
+  id          String   @id @default(uuid())
+  campaignId  String   @map("campaign_id")
+  date        DateTime
+  impressions Int      @default(0)
+  clicks      Int      @default(0)
+  leads       Int      @default(0)
+  spend       Float    @default(0)
+  conversions Int      @default(0)
+  campaign    Campaign @relation(fields: [campaignId], references: [id])
+
+  @@map("campaign_metrics")
+}
+
+model Lead {
+  id          String    @id @default(uuid())
+  campaignId  String?   @map("campaign_id")
+  source      String
+  status      String    @default("new")
+  name        String
+  email       String
+  phone       String?
+  notes       String?
+  capturedAt  DateTime  @map("captured_at")
+  campaign    Campaign? @relation(fields: [campaignId], references: [id])
+
+  @@map("leads")
+}
+
+model Booking {
+  id          String    @id @default(uuid())
+  userId      String    @map("user_id")
+  customerId  String?   @map("customer_id")
+  packageId   String?   @map("package_id")
+  slotStart   DateTime  @map("slot_start")
+  slotEnd     DateTime  @map("slot_end")
+  status      String    @default("scheduled")
+  metadata    String?
+  createdAt   DateTime  @default(now()) @map("created_at")
+  user        User      @relation(fields: [userId], references: [id])
+
+  @@map("bookings")
+}
+
+model Subscription {
+  id                     String    @id @default(uuid())
+  userId                 String    @map("user_id")
+  stripeSubscriptionId   String    @map("stripe_subscription_id")
+  packageId              String    @map("package_id")
+  status                 String    @default("active")
+  currentPeriodStart     DateTime  @map("current_period_start")
+  currentPeriodEnd       DateTime  @map("current_period_end")
+  cancelAtPeriodEnd      Boolean   @default(false) @map("cancel_at_period_end")
+  createdAt              DateTime  @default(now()) @map("created_at")
+  user                   User      @relation(fields: [userId], references: [id])
+
+  @@map("subscriptions")
+}
+
+model MarketingForm {
+  id        String          @id @default(uuid())
+  userId    String          @map("user_id")
+  name      String
+  fields    Json
+  submitUrl String          @map("submit_url")
+  createdAt DateTime        @default(now()) @map("created_at")
+  user      User            @relation(fields: [userId], references: [id])
+  submissions FormSubmission[]
+
+  @@map("marketing_forms")
+}
+
+model FormSubmission {
+  id        String         @id @default(uuid())
+  formId    String         @map("form_id")
+  data      Json
+  createdAt DateTime       @default(now()) @map("created_at")
+  form      MarketingForm  @relation(fields: [formId], references: [id])
+
+  @@map("form_submissions")
+}

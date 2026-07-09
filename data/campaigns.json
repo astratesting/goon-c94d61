@@ -1,0 +1,95 @@
+[
+  {
+    "id": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "userId": "05ec6713-1ce2-4319-8e9c-da44a8f662ed",
+    "name": "Phoenix Home Buyers SEO",
+    "packageId": "seo",
+    "status": "active",
+    "geo": "Phoenix, AZ",
+    "keywords": [
+      "phoenix homes for sale",
+      "AZ real estate",
+      "phoenix realtor"
+    ],
+    "adSpend": 0,
+    "cpc": 0,
+    "startDate": "2026-05-25T01:37:45.487Z",
+    "endDate": null,
+    "createdAt": "2026-05-25T01:37:45.487Z",
+    "updatedAt": "2026-07-07T01:37:45.487Z"
+  },
+  {
+    "id": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "userId": "05ec6713-1ce2-4319-8e9c-da44a8f662ed",
+    "name": "Scottsdale PPC Campaign",
+    "packageId": "ppc",
+    "status": "active",
+    "geo": "Scottsdale, AZ",
+    "keywords": [
+      "scottsdale luxury homes",
+      "buy home scottsdale",
+      "scottsdale real estate agent"
+    ],
+    "adSpend": 5000,
+    "cpc": 2.45,
+    "startDate": "2026-06-09T01:37:45.487Z",
+    "endDate": null,
+    "createdAt": "2026-06-09T01:37:45.487Z",
+    "updatedAt": "2026-07-08T01:37:45.487Z"
+  },
+  {
+    "id": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "userId": "05ec6713-1ce2-4319-8e9c-da44a8f662ed",
+    "name": "CA Coastal Social Media",
+    "packageId": "social",
+    "status": "active",
+    "geo": "San Diego, CA",
+    "keywords": [
+      "san diego homes",
+      "coastal real estate",
+      "SD realtor"
+    ],
+    "adSpend": 0,
+    "cpc": 0,
+    "startDate": "2026-05-10T01:37:45.487Z",
+    "endDate": null,
+    "createdAt": "2026-05-10T01:37:45.487Z",
+    "updatedAt": "2026-07-06T01:37:45.487Z"
+  },
+  {
+    "id": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "userId": "64cfabf7-bfc4-4e68-a39a-d89bb536e4cf",
+    "name": "Tucson Lead Nurture",
+    "packageId": "email",
+    "status": "active",
+    "geo": "Tucson, AZ",
+    "keywords": [
+      "tucson real estate",
+      "tucson homes"
+    ],
+    "adSpend": 0,
+    "cpc": 0,
+    "startDate": "2026-06-19T01:37:45.487Z",
+    "endDate": null,
+    "createdAt": "2026-06-19T01:37:45.487Z",
+    "updatedAt": "2026-07-04T01:37:45.487Z"
+  },
+  {
+    "id": "c599de41-00a2-4abc-a4d4-53a6daeae525",
+    "userId": "64cfabf7-bfc4-4e68-a39a-d89bb536e4cf",
+    "name": "Mesa Content Strategy",
+    "packageId": "content",
+    "status": "draft",
+    "geo": "Mesa, AZ",
+    "keywords": [
+      "mesa arizona homes",
+      "east valley real estate"
+    ],
+    "adSpend": 0,
+    "cpc": 0,
+    "startDate": "2026-06-29T01:37:45.487Z",
+    "endDate": null,
+    "createdAt": "2026-06-29T01:37:45.487Z",
+    "updatedAt": "2026-06-29T01:37:45.487Z"
+  }
+]

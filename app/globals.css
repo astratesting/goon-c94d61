@@ -8,8 +8,180 @@
   --color-cobalt-600: #2563eb;
   --color-accent: #22c55e;
   --font-display: "Inter", system-ui, sans-serif;
+
+  --color-violet: #7C3AED;
+  --color-violet-50: #7C3AED1a;
+  --color-violet-100: #EDE9FE;
+  --color-coral: #F97316;
+  --color-coral-100: #FFF7ED;
+  --color-honey: #FBBF24;
+  --color-honey-100: #FFFBEB;
+  --color-warm: #FFFBEB;
+  --color-warm-surface: #FEF3C7;
+  --color-warm-dark: #FEF9C3;
+  --color-slate-text: #334155;
+  --color-slate-secondary: #94A3B8;
+  --color-surface-text: #1E293B;
 }
 
-body {
-  font-family: var(--font-display);
+@layer base {
+  body {
+    font-family: 'Source Sans 3', var(--font-display);
+    color: var(--color-slate-text);
+    background-color: var(--color-warm);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', var(--font-display);
+    color: var(--color-surface-text);
+  }
+
+  input, select, textarea, button {
+    font-family: 'Source Sans 3', var(--font-display);
+  }
+
+  * {
+    border-color: #e2e8f0;
+  }
+}
+
+@layer utilities {
+  .font-manrope {
+    font-family: 'Manrope', var(--font-display);
+  }
+
+  .font-body {
+    font-family: 'Source Sans 3', var(--font-display);
+  }
+
+  .font-mono-price {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  .prism-gradient {
+    background: linear-gradient(135deg, var(--color-violet) 0%, var(--color-coral) 50%, var(--color-honey) 100%);
+  }
+
+  .prism-gradient-subtle {
+    background: linear-gradient(135deg, #7C3AED0d 0%, #F973160d 50%, #FBBF240d 100%);
+  }
+
+  .card-warm {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.04), 0 1px 2px -1px rgb(0 0 0 / 0.04);
+  }
+
+  .card-warm-hover {
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .card-warm-hover:hover {
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 0.08), 0 2px 4px -2px rgb(0 0 0 / 0.04);
+    transform: translateY(-1px);
+  }
+
+  .btn-violet {
+    background: var(--color-violet);
+    color: white;
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .btn-violet:hover {
+    background: #6D28D9;
+    box-shadow: 0 4px 12px rgb(124 58 237 / 0.4);
+  }
+
+  .btn-coral {
+    background: var(--color-coral);
+    color: white;
+    border-radius: 12px;
+    padding: 10px 24px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .btn-coral:hover {
+    background: #EA580C;
+    box-shadow: 0 4px 12px rgb(249 115 22 / 0.4);
+  }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--color-violet);
+    border: 2px solid var(--color-violet);
+    border-radius: 12px;
+    padding: 8px 22px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .btn-outline:hover {
+    background: var(--color-violet);
+    color: white;
+  }
+
+  .input-warm {
+    width: 100%;
+    padding: 10px 16px;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    font-size: 16px;
+    color: var(--color-surface-text);
+    background: white;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    outline: none;
+  }
+
+  .input-warm:focus {
+    border-color: var(--color-violet);
+    box-shadow: 0 0 0 3px #7C3AED1a;
+  }
+
+  .input-warm::placeholder {
+    color: var(--color-slate-secondary);
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+    opacity: 0;
+  }
+
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  @keyframes slideUp {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .stagger-1 { animation-delay: 0.1s; }
+  .stagger-2 { animation-delay: 0.2s; }
+  .stagger-3 { animation-delay: 0.3s; }
+  .stagger-4 { animation-delay: 0.4s; }
+  .stagger-5 { animation-delay: 0.5s; }
 }

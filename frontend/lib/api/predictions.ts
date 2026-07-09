@@ -9,7 +9,7 @@ export async function GET() {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const watchlist = getWatchlist(session.userId);
+  const watchlist = getWatchlist(session.user.id);
   const predictions = watchlist.map((item) => {
     const pred = generatePrediction(item.symbol);
     return {

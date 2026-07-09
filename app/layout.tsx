@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import Providers from "./providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Goon - AI Trading Platform",
-  description: "Autonomous AI trading platform for retail investors",
+  title: "Goon — Automated Marketing for Realtors",
+  description:
+    "AI-driven, hyper-local, closed-loop marketing campaigns for real estate brokerages. SEO, PPC, social, email, content — all automated.",
 };
 
 export default function RootLayout({
@@ -13,7 +15,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-navy text-white antialiased">{children}</body>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body className="bg-warm text-slate-text antialiased font-body">
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }

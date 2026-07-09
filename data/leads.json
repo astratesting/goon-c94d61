@@ -1,0 +1,112 @@
+[
+  {
+    "id": "8aad2e1c-519f-40e2-9fd3-30d51baa20d5",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "source": "google_ads",
+    "status": "new",
+    "name": "Sarah Chen",
+    "email": "sarah@homebuyers.com",
+    "phone": "480-555-0101",
+    "notes": "Interested in luxury properties",
+    "capturedAt": "2026-07-06T01:37:45.487Z"
+  },
+  {
+    "id": "5b7fbcfe-b55d-42f6-bbbe-98bf14fd0b04",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "source": "organic",
+    "status": "contacted",
+    "name": "Mike Johnson",
+    "email": "mike.j@gmail.com",
+    "phone": "602-555-0202",
+    "notes": "",
+    "capturedAt": "2026-06-30T01:37:45.487Z"
+  },
+  {
+    "id": "cfc760bb-369b-4de9-b240-d4c540dd80f7",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "source": "social",
+    "status": "qualified",
+    "name": "Lisa Park",
+    "email": "lisa.park@realtor.com",
+    "phone": "480-555-0303",
+    "notes": "",
+    "capturedAt": "2026-07-06T01:37:45.487Z"
+  },
+  {
+    "id": "089a4f92-2a66-446e-a242-44d04e76bd09",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "source": "email",
+    "status": "closed",
+    "name": "David Rodriguez",
+    "email": "david.r@outlook.com",
+    "phone": "602-555-0404",
+    "notes": "Interested in luxury properties",
+    "capturedAt": "2026-06-28T01:37:45.487Z"
+  },
+  {
+    "id": "0c4120fe-6b5c-4d3a-8415-45b0a7f7499c",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "source": "google_ads",
+    "status": "new",
+    "name": "Emma Wilson",
+    "email": "emma.wilson@yahoo.com",
+    "phone": "520-555-0505",
+    "notes": "",
+    "capturedAt": "2026-06-22T01:37:45.487Z"
+  },
+  {
+    "id": "b5b40818-80fb-4b37-b983-dd9a97853927",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "source": "organic",
+    "status": "contacted",
+    "name": "James Lee",
+    "email": "james.lee@gmail.com",
+    "phone": "858-555-0606",
+    "notes": "",
+    "capturedAt": "2026-06-28T01:37:45.487Z"
+  },
+  {
+    "id": "4c4b38b8-6815-49e0-bfb2-4df0060adf86",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "source": "social",
+    "status": "qualified",
+    "name": "Maria Garcia",
+    "email": "maria.g@icloud.com",
+    "phone": "619-555-0707",
+    "notes": "Interested in luxury properties",
+    "capturedAt": "2026-06-17T01:37:45.487Z"
+  },
+  {
+    "id": "70da868c-53b4-474c-acec-183a58f367b1",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "source": "email",
+    "status": "closed",
+    "name": "Robert Kim",
+    "email": "rkim@realtor.com",
+    "phone": "480-555-0808",
+    "notes": "",
+    "capturedAt": "2026-07-01T01:37:45.487Z"
+  },
+  {
+    "id": "90a64f8a-3189-4d79-a43a-c607a7db6d7e",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "source": "google_ads",
+    "status": "new",
+    "name": "Jennifer Adams",
+    "email": "jen.a@gmail.com",
+    "phone": "602-555-0909",
+    "notes": "",
+    "capturedAt": "2026-06-13T01:37:45.487Z"
+  },
+  {
+    "id": "77348068-5e92-4cc4-8bd0-e2a4da349b79",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "source": "organic",
+    "status": "contacted",
+    "name": "Carlos Martinez",
+    "email": "carlos.m@gmail.com",
+    "phone": "520-555-1010",
+    "notes": "Interested in luxury properties",
+    "capturedAt": "2026-06-10T01:37:45.487Z"
+  }
+]

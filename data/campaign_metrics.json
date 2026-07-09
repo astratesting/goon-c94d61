@@ -1,0 +1,562 @@
+[
+  {
+    "id": "d088e61e-2c5b-4ba2-bdf5-1ae812edcb99",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "date": "2026-07-09",
+    "impressions": 2668,
+    "clicks": 83,
+    "leads": 11,
+    "spend": 127.7,
+    "conversions": 2
+  },
+  {
+    "id": "be45246c-bdd7-4d38-a607-e313999a4b1d",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "date": "2026-07-08",
+    "impressions": 2296,
+    "clicks": 162,
+    "leads": 14,
+    "spend": 331.49,
+    "conversions": 1
+  },
+  {
+    "id": "0aaad11a-0da1-4a41-a54b-08cc4b51a362",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "date": "2026-07-07",
+    "impressions": 2821,
+    "clicks": 157,
+    "leads": 14,
+    "spend": 179.69,
+    "conversions": 4
+  },
+  {
+    "id": "06ddc072-fb02-4bd6-b24d-52994ebe73b1",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "date": "2026-07-06",
+    "impressions": 5110,
+    "clicks": 180,
+    "leads": 8,
+    "spend": 188.29,
+    "conversions": 2
+  },
+  {
+    "id": "4f2e6586-6cb0-47b0-ab6c-31298a91bfaf",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "date": "2026-07-05",
+    "impressions": 3189,
+    "clicks": 149,
+    "leads": 18,
+    "spend": 144.48,
+    "conversions": 1
+  },
+  {
+    "id": "1c13d7e6-cb5e-4e96-83e9-3bb5787026b0",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "date": "2026-07-04",
+    "impressions": 4817,
+    "clicks": 58,
+    "leads": 12,
+    "spend": 217.14,
+    "conversions": 3
+  },
+  {
+    "id": "ed691146-15ea-4ee7-9600-13af8ef649c1",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "date": "2026-07-03",
+    "impressions": 5872,
+    "clicks": 82,
+    "leads": 10,
+    "spend": 310.77,
+    "conversions": 4
+  },
+  {
+    "id": "53eaab57-2f88-4b3b-bb81-8eb86b17f7b7",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "date": "2026-07-02",
+    "impressions": 4936,
+    "clicks": 161,
+    "leads": 6,
+    "spend": 116.29,
+    "conversions": 1
+  },
+  {
+    "id": "ff8dbbf0-39ec-4230-99fe-a7fef79c7953",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "date": "2026-07-01",
+    "impressions": 3627,
+    "clicks": 246,
+    "leads": 5,
+    "spend": 80.51,
+    "conversions": 4
+  },
+  {
+    "id": "3d508dfd-834c-48b5-81ef-0804f5dca0a9",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "date": "2026-06-30",
+    "impressions": 5086,
+    "clicks": 220,
+    "leads": 8,
+    "spend": 226.58,
+    "conversions": 2
+  },
+  {
+    "id": "adae35f9-3ab2-4998-8ec6-d684e83b51af",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "date": "2026-06-29",
+    "impressions": 5873,
+    "clicks": 99,
+    "leads": 3,
+    "spend": 297.43,
+    "conversions": 2
+  },
+  {
+    "id": "b54441b7-cd27-43b8-a657-2dbde029492e",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "date": "2026-06-28",
+    "impressions": 1480,
+    "clicks": 213,
+    "leads": 22,
+    "spend": 301.85,
+    "conversions": 2
+  },
+  {
+    "id": "57a06898-7ccd-40e3-9c5e-9349d1fb47b9",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "date": "2026-06-27",
+    "impressions": 4016,
+    "clicks": 196,
+    "leads": 8,
+    "spend": 338.62,
+    "conversions": 2
+  },
+  {
+    "id": "0be2f477-86b6-4d73-b935-62647fe027eb",
+    "campaignId": "7004810a-d395-45f3-bacf-7f23563e5a2e",
+    "date": "2026-06-26",
+    "impressions": 3878,
+    "clicks": 102,
+    "leads": 18,
+    "spend": 147.02,
+    "conversions": 4
+  },
+  {
+    "id": "d03a2d12-b420-4601-ba21-a460c445093f",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "date": "2026-07-09",
+    "impressions": 1130,
+    "clicks": 198,
+    "leads": 20,
+    "spend": 324.49,
+    "conversions": 4
+  },
+  {
+    "id": "5881a1b6-e863-4562-accd-2b338662d7c1",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "date": "2026-07-08",
+    "impressions": 5084,
+    "clicks": 224,
+    "leads": 22,
+    "spend": 240.55,
+    "conversions": 1
+  },
+  {
+    "id": "e3d55c1f-9565-4dc1-ba2e-59c145261887",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "date": "2026-07-07",
+    "impressions": 2237,
+    "clicks": 165,
+    "leads": 20,
+    "spend": 198.62,
+    "conversions": 1
+  },
+  {
+    "id": "d0e35d02-bb99-4c64-a3f4-530dde1729e1",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "date": "2026-07-06",
+    "impressions": 2977,
+    "clicks": 96,
+    "leads": 20,
+    "spend": 328.03,
+    "conversions": 2
+  },
+  {
+    "id": "07d60f62-c99c-4de4-a4c9-b4e937cc4a18",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "date": "2026-07-05",
+    "impressions": 2013,
+    "clicks": 113,
+    "leads": 15,
+    "spend": 215.43,
+    "conversions": 5
+  },
+  {
+    "id": "ceeab1a3-2b47-4e4f-a7be-e45a3aa6535f",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "date": "2026-07-04",
+    "impressions": 5435,
+    "clicks": 169,
+    "leads": 14,
+    "spend": 201.71,
+    "conversions": 5
+  },
+  {
+    "id": "6e3c2e02-52ef-47d8-a864-83bff43a9bd6",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "date": "2026-07-03",
+    "impressions": 1904,
+    "clicks": 95,
+    "leads": 15,
+    "spend": 342.35,
+    "conversions": 1
+  },
+  {
+    "id": "d806a4e8-9b4d-4fff-a2c4-494530d37242",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "date": "2026-07-02",
+    "impressions": 4491,
+    "clicks": 56,
+    "leads": 20,
+    "spend": 101.25,
+    "conversions": 5
+  },
+  {
+    "id": "bbe13040-9bb5-4cbb-b98f-7bf718731fe8",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "date": "2026-07-01",
+    "impressions": 2781,
+    "clicks": 67,
+    "leads": 7,
+    "spend": 278.87,
+    "conversions": 3
+  },
+  {
+    "id": "a4b6bbf5-a367-4fa9-9f08-5179c7145321",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "date": "2026-06-30",
+    "impressions": 1181,
+    "clicks": 69,
+    "leads": 16,
+    "spend": 162.65,
+    "conversions": 4
+  },
+  {
+    "id": "410ba4e4-8bae-426f-8363-107c4bf33b33",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "date": "2026-06-29",
+    "impressions": 3104,
+    "clicks": 75,
+    "leads": 10,
+    "spend": 106.35,
+    "conversions": 4
+  },
+  {
+    "id": "c0b88eda-1ba7-4454-8733-ad0a215ba812",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "date": "2026-06-28",
+    "impressions": 3425,
+    "clicks": 141,
+    "leads": 20,
+    "spend": 262.34,
+    "conversions": 5
+  },
+  {
+    "id": "c884795a-5330-4535-95c3-6a1c51e60360",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "date": "2026-06-27",
+    "impressions": 1621,
+    "clicks": 69,
+    "leads": 11,
+    "spend": 116.29,
+    "conversions": 3
+  },
+  {
+    "id": "c20b1458-4358-49f5-a587-1fbcf781b8d2",
+    "campaignId": "7985e1dc-b50b-4234-8165-a5ee5f7b4aa2",
+    "date": "2026-06-26",
+    "impressions": 3582,
+    "clicks": 245,
+    "leads": 20,
+    "spend": 166.34,
+    "conversions": 5
+  },
+  {
+    "id": "c54dc636-b39a-4053-ba6c-e083b1cb0145",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "date": "2026-07-09",
+    "impressions": 5585,
+    "clicks": 142,
+    "leads": 15,
+    "spend": 142.54,
+    "conversions": 4
+  },
+  {
+    "id": "f4646516-f5f6-4623-bd65-98440f7bedca",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "date": "2026-07-08",
+    "impressions": 5377,
+    "clicks": 215,
+    "leads": 21,
+    "spend": 254.86,
+    "conversions": 1
+  },
+  {
+    "id": "79a9e382-f55b-4776-abe2-f68267cc1b48",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "date": "2026-07-07",
+    "impressions": 3291,
+    "clicks": 207,
+    "leads": 16,
+    "spend": 98.75,
+    "conversions": 1
+  },
+  {
+    "id": "6a363017-4c30-47a4-bd8e-e90365decf93",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "date": "2026-07-06",
+    "impressions": 3444,
+    "clicks": 169,
+    "leads": 17,
+    "spend": 244.83,
+    "conversions": 1
+  },
+  {
+    "id": "1a8d7a76-347a-40ab-ac7a-e07f381d61ba",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "date": "2026-07-05",
+    "impressions": 1704,
+    "clicks": 109,
+    "leads": 3,
+    "spend": 273.34,
+    "conversions": 3
+  },
+  {
+    "id": "8d6afd6f-e0b0-426a-9789-4b8abaeb2567",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "date": "2026-07-04",
+    "impressions": 5853,
+    "clicks": 229,
+    "leads": 4,
+    "spend": 107.55,
+    "conversions": 2
+  },
+  {
+    "id": "f3eb9143-4899-4b55-97d6-f5077209b036",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "date": "2026-07-03",
+    "impressions": 2263,
+    "clicks": 203,
+    "leads": 22,
+    "spend": 308.84,
+    "conversions": 5
+  },
+  {
+    "id": "21aa6b2a-7f79-4557-8502-1d6067c5b818",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "date": "2026-07-02",
+    "impressions": 4879,
+    "clicks": 222,
+    "leads": 10,
+    "spend": 194.91,
+    "conversions": 2
+  },
+  {
+    "id": "a0c00ad3-26d7-47dd-8edc-41016962eba2",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "date": "2026-07-01",
+    "impressions": 4824,
+    "clicks": 131,
+    "leads": 19,
+    "spend": 303.35,
+    "conversions": 2
+  },
+  {
+    "id": "07d6c4f5-42c0-48cf-ba4a-f18e1bd35d0c",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "date": "2026-06-30",
+    "impressions": 4750,
+    "clicks": 238,
+    "leads": 5,
+    "spend": 94.03,
+    "conversions": 2
+  },
+  {
+    "id": "97430c34-8cb7-4532-ac35-0cadd9654202",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "date": "2026-06-29",
+    "impressions": 4558,
+    "clicks": 224,
+    "leads": 4,
+    "spend": 230.21,
+    "conversions": 2
+  },
+  {
+    "id": "8b6ed0c4-2a39-4f6f-b4fd-bd6a44132bbd",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "date": "2026-06-28",
+    "impressions": 1143,
+    "clicks": 163,
+    "leads": 21,
+    "spend": 112.69,
+    "conversions": 1
+  },
+  {
+    "id": "a77980f7-a5dd-4a86-8b65-09d796b9aece",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "date": "2026-06-27",
+    "impressions": 2364,
+    "clicks": 70,
+    "leads": 18,
+    "spend": 80.18,
+    "conversions": 4
+  },
+  {
+    "id": "dd47efef-60e4-42a4-b684-5dfeb9a8380e",
+    "campaignId": "da2dfb2c-5ef9-4391-9201-118fe18767d5",
+    "date": "2026-06-26",
+    "impressions": 5685,
+    "clicks": 73,
+    "leads": 9,
+    "spend": 211.78,
+    "conversions": 5
+  },
+  {
+    "id": "be538f26-e9ad-406d-b866-a92cbcef24a6",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "date": "2026-07-09",
+    "impressions": 5711,
+    "clicks": 54,
+    "leads": 5,
+    "spend": 243.74,
+    "conversions": 5
+  },
+  {
+    "id": "39d1479a-df37-4d6a-8ca8-ba04a2a7e123",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "date": "2026-07-08",
+    "impressions": 5669,
+    "clicks": 216,
+    "leads": 12,
+    "spend": 177.41,
+    "conversions": 4
+  },
+  {
+    "id": "b0f1252f-0cfd-475e-80c8-4d24a5ec7727",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "date": "2026-07-07",
+    "impressions": 2882,
+    "clicks": 86,
+    "leads": 8,
+    "spend": 251.69,
+    "conversions": 2
+  },
+  {
+    "id": "670db4e3-ec6a-4143-bcc7-fb23c5cea7d7",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "date": "2026-07-06",
+    "impressions": 2268,
+    "clicks": 106,
+    "leads": 21,
+    "spend": 177.51,
+    "conversions": 3
+  },
+  {
+    "id": "8c2d0827-bea7-4a05-a581-693046dfa13d",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "date": "2026-07-05",
+    "impressions": 2936,
+    "clicks": 153,
+    "leads": 8,
+    "spend": 314.49,
+    "conversions": 2
+  },
+  {
+    "id": "283af63e-a389-4c85-9d75-f08a24ee304a",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "date": "2026-07-04",
+    "impressions": 4935,
+    "clicks": 248,
+    "leads": 4,
+    "spend": 132.81,
+    "conversions": 1
+  },
+  {
+    "id": "dadbd676-0702-431b-bce8-9d53bd060974",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "date": "2026-07-03",
+    "impressions": 5514,
+    "clicks": 83,
+    "leads": 14,
+    "spend": 329.13,
+    "conversions": 5
+  },
+  {
+    "id": "ae53b84d-b23b-4de9-b293-581211e8db2c",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "date": "2026-07-02",
+    "impressions": 2131,
+    "clicks": 176,
+    "leads": 15,
+    "spend": 197.58,
+    "conversions": 4
+  },
+  {
+    "id": "fa793030-b07a-4411-8392-a00e4455a55a",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "date": "2026-07-01",
+    "impressions": 4085,
+    "clicks": 128,
+    "leads": 18,
+    "spend": 193.81,
+    "conversions": 1
+  },
+  {
+    "id": "040e4f90-9e42-47da-ad74-387eefd7ca36",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "date": "2026-06-30",
+    "impressions": 4565,
+    "clicks": 152,
+    "leads": 10,
+    "spend": 89.83,
+    "conversions": 4
+  },
+  {
+    "id": "ab60e76b-c275-4931-9143-2316e6a167a6",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "date": "2026-06-29",
+    "impressions": 3557,
+    "clicks": 111,
+    "leads": 10,
+    "spend": 166.64,
+    "conversions": 3
+  },
+  {
+    "id": "f7deab2e-62b5-4404-b0ca-d6200debca21",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "date": "2026-06-28",
+    "impressions": 4806,
+    "clicks": 117,
+    "leads": 16,
+    "spend": 281.16,
+    "conversions": 4
+  },
+  {
+    "id": "fe873ced-c13e-43d7-a077-ac3f0049e245",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "date": "2026-06-27",
+    "impressions": 5402,
+    "clicks": 91,
+    "leads": 18,
+    "spend": 280.52,
+    "conversions": 3
+  },
+  {
+    "id": "4413dd4a-e439-487f-bc23-e11e4ddac899",
+    "campaignId": "7fbc8472-ccea-4362-89de-d845a8f2a594",
+    "date": "2026-06-26",
+    "impressions": 4013,
+    "clicks": 182,
+    "leads": 3,
+    "spend": 84.32,
+    "conversions": 1
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "64cfabf7-bfc4-4e68-a39a-d89bb536e4cf",
+    "email": "demo@demo.app",
+    "name": "Demo User",
+    "passwordHash": "$2a$10$XiftL/3YO6dMz08ANmB4l.yesI7XzN51VybKFNZ5p6htb9QlgRa3a",
+    "emailVerified": true,
+    "role": "customer",
+    "stripeCustomerId": null,
+    "createdAt": "2026-07-09T01:37:45.381Z"
+  },
+  {
+    "id": "05ec6713-1ce2-4319-8e9c-da44a8f662ed",
+    "email": "admin@goon.app",
+    "name": "Admin User",
+    "passwordHash": "$2a$10$EX3FQbH1ljIZ2K.w681Mxuqnip7vZXyC5qlTyloyn0r58OGSsix8W",
+    "emailVerified": true,
+    "role": "admin",
+    "stripeCustomerId": null,
+    "createdAt": "2026-07-09T01:37:45.486Z"
+  }
+]

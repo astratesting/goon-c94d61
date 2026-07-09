@@ -1,0 +1,83 @@
+[
+  {
+    "id": "5e0af54f-6a33-40e6-a38d-0633838406b7",
+    "userId": "64cfabf7-bfc4-4e68-a39a-d89bb536e4cf",
+    "name": "Home Buyer Lead Form",
+    "fields": [
+      {
+        "id": "ee7c92f2761a0a14",
+        "type": "text",
+        "label": "Full Name",
+        "required": true,
+        "placeholder": "Enter your name"
+      },
+      {
+        "id": "b7c85717c1202fe2",
+        "type": "email",
+        "label": "Email",
+        "required": true,
+        "placeholder": "you@example.com"
+      },
+      {
+        "id": "c6562ce782ec45cc",
+        "type": "phone",
+        "label": "Phone",
+        "required": false,
+        "placeholder": "(555) 000-0000"
+      },
+      {
+        "id": "9ea0d479a2b737b6",
+        "type": "select",
+        "label": "Budget Range",
+        "required": true,
+        "options": [
+          "$200K-$400K",
+          "$400K-$600K",
+          "$600K-$1M",
+          "$1M+"
+        ]
+      },
+      {
+        "id": "648515ffc9719037",
+        "type": "select",
+        "label": "Timeline",
+        "required": true,
+        "options": [
+          "Immediately",
+          "1-3 months",
+          "3-6 months",
+          "6+ months"
+        ]
+      }
+    ],
+    "submitUrl": "/api/contact",
+    "createdAt": "2026-06-19T01:37:45.487Z"
+  },
+  {
+    "id": "46d42e1ac9146e40",
+    "userId": "64cfabf7-bfc4-4e68-a39a-d89bb536e4cf",
+    "name": "Free Market Report",
+    "fields": [
+      {
+        "id": "e3df4270d1c5ebec",
+        "type": "text",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "id": "c04fec6970aed545",
+        "type": "email",
+        "label": "Email",
+        "required": true
+      },
+      {
+        "id": "54124e8bf9446017",
+        "type": "text",
+        "label": "Zip Code",
+        "required": true
+      }
+    ],
+    "submitUrl": "/api/contact",
+    "createdAt": "2026-06-24T01:37:45.487Z"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "09ad819b-9c73-41a9-beba-f247eb24c155",
+    "userId": "64cfabf7-bfc4-4e68-a39a-d89bb536e4cf",
+    "customerId": null,
+    "packageId": "ppc",
+    "slotStart": "2026-07-10T01:37:45.487Z",
+    "slotEnd": "2026-07-10T02:37:45.487Z",
+    "status": "scheduled",
+    "metadata": "Demo call for PPC campaign",
+    "createdAt": "2026-07-07T01:37:45.487Z"
+  },
+  {
+    "id": "a5252ee7-5af1-4c2b-8b3d-e4c8ae52bd98",
+    "userId": "64cfabf7-bfc4-4e68-a39a-d89bb536e4cf",
+    "customerId": null,
+    "packageId": "seo",
+    "slotStart": "2026-07-11T01:37:45.487Z",
+    "slotEnd": "2026-07-11T02:37:45.487Z",
+    "status": "confirmed",
+    "metadata": "Strategy review",
+    "createdAt": "2026-07-04T01:37:45.487Z"
+  }
+]
